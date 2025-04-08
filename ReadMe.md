@@ -1,4 +1,4 @@
-Build an intermediate-level Fitness Workout Tracker using React, Python/Flask, and SQLite with Azure DevOps integration. Include:
+Fitness Workout Tracker using React, Python/Flask, and SQLite with Azure DevOps integration.
 
 1. Flask backend with:
    - REST API for workouts and exercises
@@ -19,6 +19,5 @@ Build an intermediate-level Fitness Workout Tracker using React, Python/Flask, a
    - Environment configuration management
 
 4. Development and production configuration
-5. Documentation with setup instructions
 
-Focus on creating a functional application with proper DevOps practices rather than complex fitness features.
+
