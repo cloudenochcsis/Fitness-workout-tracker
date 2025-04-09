@@ -22,12 +22,16 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.frontend
+      args:
+        REACT_APP_API_URL: http://localhost
     container_name: fitness-tracker-frontend
     restart: always
     ports:
       - "80:80"
     depends_on:
       - backend
+    environment:
+      - REACT_APP_API_URL=http://localhost
 
 volumes:
   backend_data:
